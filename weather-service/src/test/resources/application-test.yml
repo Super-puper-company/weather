@@ -1,0 +1,7 @@
+spring:
+  liquibase:
+    enabled: false
+  datasource:
+    url: jdbc:mariadb://${embedded.mariadb.host:localhost}:${embedded.mariadb.port:3306}/${embedded.mariadb.schema:example_db}
+    username: ${embedded.mariadb.user:user}
+    password: ${embedded.mariadb.password:user_password}

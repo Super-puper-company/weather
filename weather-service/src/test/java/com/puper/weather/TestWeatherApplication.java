@@ -1,4 +1,4 @@
-package com.smanko.weather;
+package com.puper.weather;
 
 import org.springframework.boot.SpringApplication;
 
